@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0" />
+  <title>A big party!!!</title>
+  <style>
+  body{background:#024c90;;color:#fff;max-width:640px;margin:20px auto;padding:10px;font-family:helvetica,arial,verdana;line-height:1.3;}
+  h1{font-size:8vw;line-height:normal;text-align:center;margin:0;margin:0 0 20px;background:url(flag.svg) no-repeat 100% 40%,url(flag.svg) no-repeat 0 40%;line-height:normal;}
+  .video{position:relative;height:0;padding-bottom:calc(100% * 9 / 16);}
+  video{position:absolute;left:0;right:0;top:0;bottom:0;z-index:1;width:100%;height:100%;background:url(marius.jpg) no-repeat 0 0;background-size:100%;}
+  .error{background:#ccc;font-size:20px;font-weight:bold;padding:100px;}
+  p{font-size:25px;font-size:6vw;padding:0 10px;}
+  a{color:red}
+  @media only screen and (min-width:600px){
+  h1{font-size:45px;}
+  p{font-size:25px;}
+  }
+  @media print{
+  body{max-width:468px;}
+  p{font-size:15pt!important;}
+  }
+  </style>
+</head>
+<body>
+  <h1>A big party!!!</h1>
+  <div class="video">
+    <video controls playsinline>
+      <source src="marius.mp4" type="video/mp4" poster="marius.jpg">
+        <p class="error">Din browser understøtter ikke moderne video - prøv med din smartphone/tablet :)</p>
+    </video>
+  </div>
+  <p>Kom hjem til mig lørdag den 14. oktober kl. 11 til boller og kagemand.</p>
+  <p>Jeg ønsker mig legetøj.</p>
+  <p>Kærlig hilsen <strong>Marius</strong></p>
+</body>
+</html>
